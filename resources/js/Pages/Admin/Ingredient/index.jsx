@@ -7,6 +7,8 @@ import { useForm, Link } from '@inertiajs/react'
 import DeleteConfirm from "../../../Components/DeleteConfirm";
 import { usePage } from '@inertiajs/react'
 
+import ingredientsData from './data.json'
+
 const IngredientData = (dataGet) => {
     const searchParams = new URLSearchParams(window.location.search);
     // console.log(searchParams.has('page')); // price_descending
@@ -26,7 +28,11 @@ const IngredientData = (dataGet) => {
         </Table.Row>
     ))
 }
-export default function Index({ ingredients }) {
+export default function Index() {
+    const ingredients = ingredientsData
+
+    console.log(ingredients)
+
     const { flash } = usePage().props
 
     const { data, setData, post, errors } = useForm({

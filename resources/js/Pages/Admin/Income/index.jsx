@@ -14,6 +14,10 @@ import DateFormat from "../../../Helper/DateFormat";
 import DataOption from "./DataOption";
 import CurrencyFormat from "../../../Helper/CurrencyFormat";
 
+import customerData from './customer_data.json'
+import incomeData from './income_data.json'
+import productData from './product_data.json'
+
 const IncomeData = (dataGet) => {
     const searchParams = new URLSearchParams(window.location.search);
     // console.log(searchParams.has('page')); // price_descending
@@ -46,7 +50,11 @@ const IncomeData = (dataGet) => {
     ))
 }
 
-export default function Index({ incomes, products, customers }) {
+export default function Index() {
+
+    const customers = customerData
+    const products = productData
+    const incomes = incomeData
 
     const date = DateFormat();
     if (products.length == 0 || customers.length == 0) {
@@ -67,9 +75,6 @@ export default function Index({ incomes, products, customers }) {
         customer_id: customers[customers.length - 1].id,
         detail_items: [],
     })
-
-    console.log(data);
-
 
     // const [productId, setProductId] = useState(products[products.length - 1].data.id)
     const [productId, setProductId] = useState(products[products.length - 1].data.id)

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Corrupti qui.",
+        "address": "Kpg. Padma No. 291, Bengkulu 71124, Lampung",
+        "phone": "0966 6030 845",
+        "pic_name": "Kusuma Banara Prayoga",
+        "is_archived": 0,
+        "created_at": "2024-04-26T03:40:30.000000Z",
+        "updated_at": "2024-04-26T03:40:30.000000Z"
+    },
+    {
+        "id": 2,
+        "name": "Nihil consequatur.",
+        "address": "Ki. Wora Wari No. 937, Palangka Raya 51814, Jambi",
+        "phone": "(+62) 658 3348 982",
+        "pic_name": "Pia Anggraini",
+        "is_archived": 0,
+        "created_at": "2024-04-26T03:40:30.000000Z",
+        "updated_at": "2024-04-26T03:40:30.000000Z"
+    },
+    {
+        "id": 3,
+        "name": "Tempore impedit laudantium.",
+        "address": "Jr. Rajiman No. 983, Medan 25912, Gorontalo",
+        "phone": "0793 6116 809",
+        "pic_name": "Ella Yessi Uyainah",
+        "is_archived": 0,
+        "created_at": "2024-04-26T03:40:30.000000Z",
+        "updated_at": "2024-04-26T03:40:30.000000Z"
+    },
+    {
+        "id": 4,
+        "name": "Ea illo et.",
+        "address": "Jln. Eka No. 277, Bitung 76106, Bengkulu",
+        "phone": "0351 7287 7497",
+        "pic_name": "Julia Agustina S.T.",
+        "is_archived": 0,
+        "created_at": "2024-04-26T03:40:30.000000Z",
+        "updated_at": "2024-04-26T03:40:30.000000Z"
+    },
+    {
+        "id": 5,
+        "name": "Ea ad.",
+        "address": "Jln. Jaksa No. 57, Tebing Tinggi 15821, Sumut",
+        "phone": "0308 9283 9983",
+        "pic_name": "Icha Widiastuti",
+        "is_archived": 0,
+        "created_at": "2024-04-26T03:40:30.000000Z",
+        "updated_at": "2024-04-26T03:40:30.000000Z"
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "data": {
+            "id": 3,
+            "product_id": 8,
+            "name": "Accusantium nisi. (23 x 25)",
+            "price": 26000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 7,
+            "product_id": 8,
+            "name": "Accusantium nisi. (20 x 24)",
+            "price": 33000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 10,
+            "product_id": 8,
+            "name": "Accusantium nisi. (11 x 24)",
+            "price": 48000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 1,
+            "product_id": 6,
+            "name": "Aut qui vel. (25 x 12)",
+            "price": 10000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 6,
+            "product_id": 6,
+            "name": "Aut qui vel. (22 x 16)",
+            "price": 9000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 2,
+            "product_id": 7,
+            "name": "Eligendi voluptas dolorem autem. (20 x 20)",
+            "price": 21000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 5,
+            "product_id": 7,
+            "name": "Eligendi voluptas dolorem autem. (13 x 25)",
+            "price": 16000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 8,
+            "product_id": 7,
+            "name": "Eligendi voluptas dolorem autem. (19 x 13)",
+            "price": 11000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 1,
+            "product_id": 2,
+            "name": "Et voluptatem quia corrupti. (quo)",
+            "price": 16000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 4,
+            "product_id": 2,
+            "name": "Et voluptatem quia corrupti. (laborum)",
+            "price": 17000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 8,
+            "product_id": 2,
+            "name": "Et voluptatem quia corrupti. (pariatur)",
+            "price": 43000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 5,
+            "product_id": 1,
+            "name": "Excepturi excepturi sunt. (et)",
+            "price": 23000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 4,
+            "product_id": 10,
+            "name": "Ipsam aut molestias similique ut. (14 x 16)",
+            "price": 12000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 2,
+            "product_id": 5,
+            "name": "Quo sed laborum occaecati. (aliquid)",
+            "price": 23000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 7,
+            "product_id": 5,
+            "name": "Quo sed laborum occaecati. (aut)",
+            "price": 22000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 6,
+            "product_id": 4,
+            "name": "Saepe error qui. (quis)",
+            "price": 43000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 9,
+            "product_id": 4,
+            "name": "Saepe error qui. (accusantium)",
+            "price": 49000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 10,
+            "product_id": 4,
+            "name": "Saepe error qui. (dolorum)",
+            "price": 43000,
+            "type": "flavor"
+        }
+    },
+    {
+        "data": {
+            "id": 9,
+            "product_id": 9,
+            "name": "Soluta voluptatem veritatis. (10 x 16)",
+            "price": 17000,
+            "type": "size"
+        }
+    },
+    {
+        "data": {
+            "id": 3,
+            "product_id": 3,
+            "name": "Suscipit quo nesciunt pariatur. (eum)",
+            "price": 17000,
+            "type": "flavor"
+        }
+    }
+]

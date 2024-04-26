@@ -6,12 +6,23 @@ import DateFormat from "../../../Helper/DateFormat";
 import TableComp from './../../../Components/Table';
 import { Table } from "flowbite-react";
 import CurrencyFormat from './../../../Helper/CurrencyFormat';
+import latestIncomeData from './../../../Pages/Admin/Dashboard/latestIncome.data.json';
+import latestOutcomeData from './../../../Pages/Admin/Dashboard/latestOutcome.data.json';
+import walletsData from './../../../Pages/Admin/Dashboard/wallet.data.json';
+import profitPerMonthData from './../../../Pages/Admin/Dashboard/profitPerMonth.data.json';
 
-function Index({ wallets, profitPerMonth, latestOutcome, latestIncome }) {
+function Index() {
 
-    console.log(latestOutcome);
+    const latestIncome = latestIncomeData;
+    let profitPerMonth = profitPerMonthData;
+    const latestOutcome = latestOutcomeData;
+    const wallets = walletsData;
+
+    console.log(latestIncome)
+    console.log(latestOutcome)
+    console.log(wallets)
+
     profitPerMonth = Array.from(profitPerMonth);
-
 
     let profit = wallets.income - wallets.outcome
 
@@ -41,15 +52,6 @@ function Index({ wallets, profitPerMonth, latestOutcome, latestIncome }) {
                     <TableComp title={"Pengeluaran Terbaru"} isPageable={false} head={["#", "Tanggal", "Deskripsi", "Total"]} tableContent={LatestOutcomeData(latestOutcome)}></TableComp>
                     <TableComp title={"Pemasukan Terbaru"} isPageable={false} head={["#", "Tanggal", "Deskripsi", "Total"]} tableContent={LatestIncomeData(latestIncome)}></TableComp>
                 </div>
-                {/* <div className="">saldo : {numberFormat(wallets.balance)}</div>
-                <div className="">pemasukan : {numberFormat(wallets.income)}</div>
-                <div className="">pengeluaran : {numberFormat(wallets.outcome)}</div>
-                <div className="">keuntungan : {numberFormat(profit)}</div>
-                <h1 className="text-xl font-bold mt-4 mb-2">pembagian keuntungan</h1>
-                <div className="">sosial : {numberFormat(profit * 10 / 100)}</div>
-                <div className="">operasional : {numberFormat( profit * 40 / 100)}</div>
-                <div className="">tabungan : {numberFormat(profit * 50 / 100)}</div> */}
-
             </div>
         </Admin>
     );
@@ -81,7 +83,7 @@ const LatestIncomeData = (dataGet) => {
     const searchParams = new URLSearchParams(window.location.search);
     // console.log(searchParams.has('page')); // price_descending
 
-    return dataGet.data.slice(0, 5).map((item, index) => (
+    return dataGet.slice(0, 5).map((item, index) => (
         <Table.Row key={item.id} className="bg-white border-none dark:bg-gray-800">
             <Table.Cell>{++index + (!searchParams.has('page') ? 0 : 10 * (searchParams.get('page') - 1))}</Table.Cell>
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">

@@ -7,7 +7,6 @@ import CurrencyFormat from '../../../Helper/CurrencyFormat';
 
 const DetailItemData = (data) => {
     return data.map(function (item, index) {
-        console.log(item)
         return (
             <Table.Row key={item.id} className="bg-white border-none dark:bg-gray-800">
                 <Table.Cell>{++index}</Table.Cell>
