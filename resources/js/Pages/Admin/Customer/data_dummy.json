@@ -1,0 +1,112 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "name": "Asmadi Cahyadi Nababan",
+            "address": "Kpg. Arifin No. 360, Prabumulih 88924, DKI",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 2,
+            "name": "Banawa Damanik M.Pd",
+            "address": "Ds. Bazuka Raya No. 402, Sukabumi 59295, Sulbar",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 3,
+            "name": "Nadine Paris Hariyah S.I.Kom",
+            "address": "Kpg. Rajawali Timur No. 522, Administrasi Jakarta Utara 23667, Gorontalo",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 4,
+            "name": "Eman Sitompul",
+            "address": "Jr. Babadak No. 321, Serang 80475, Kaltim",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 5,
+            "name": "Paiman Sitorus",
+            "address": "Dk. Banceng Pondok No. 68, Magelang 52566, Jatim",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 6,
+            "name": "Jagapati Gandi Pranowo S.T.",
+            "address": "Gg. Pelajar Pejuang 45 No. 727, Manado 15684, DIY",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 7,
+            "name": "Endah Wahyuni",
+            "address": "Gg. Mahakam No. 159, Subulussalam 57973, Kalsel",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 8,
+            "name": "Oni Haryanti",
+            "address": "Kpg. Imam No. 745, Tegal 55866, Banten",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 9,
+            "name": "Legawa Cemani Firmansyah",
+            "address": "Gg. Setia Budi No. 905, Administrasi Jakarta Pusat 60529, Malut",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        },
+        {
+            "id": 10,
+            "name": "Saiful Firmansyah",
+            "address": "Ki. Kebonjati No. 965, Binjai 61306, Kaltim",
+            "is_archived": 0,
+            "created_at": "2024-04-26T03:40:31.000000Z",
+            "updated_at": "2024-04-26T03:40:31.000000Z"
+        }
+    ],
+    "first_page_url": "http://127.0.0.1:8000/admin/customer?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http://127.0.0.1:8000/admin/customer?page=1",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "http://127.0.0.1:8000/admin/customer?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "http://127.0.0.1:8000/admin/customer",
+    "per_page": 10,
+    "prev_page_url": null,
+    "to": 10,
+    "total": 10
+}
