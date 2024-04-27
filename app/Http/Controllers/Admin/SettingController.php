@@ -9,11 +9,8 @@ use Inertia\Inertia;
 
 class SettingController extends Controller
 {
-    public function index(Wallet $wallet, Unit $unit)
+    public function index()
     {
-        $wallets = Wallet::latest()->first();
-        $units = Unit::all();
-
-        return Inertia::render('Admin/Setting/index', compact('wallets', 'units'));
+        return Inertia::render('Admin/Setting/index');
     }
 }

@@ -33,7 +33,7 @@ export default function DetailProduct({ title, headerTitle, data }) {
                 <Modal.Body className='grid grid-cols-2 gap-4'>
                     <div className="">
                         <div className="flex justify-center rounded-lg overflow-hidden">
-                            <img src={data.image} alt="" />
+                            <img src="https://source.unsplash.com/random/?bakery" alt="" />
                         </div>
                     </div>
                     <div className="">

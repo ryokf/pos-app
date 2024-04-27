@@ -8,6 +8,8 @@ import { usePage } from '@inertiajs/react'
 import Edit from "./Edit";
 import DeleteConfirm from "../../../Components/DeleteConfirm";
 
+import storeData from './data.json'
+
 const StoreData = (dataGet) => {
     const searchParams = new URLSearchParams(window.location.search);
     // console.log(searchParams.has('page')); // price_descending
@@ -38,7 +40,11 @@ const StoreData = (dataGet) => {
     ))
 }
 
-const Index = ({ stores }) => {
+const Index = () => {
+    const stores = storeData
+
+    console.log(stores)
+
     const { flash } = usePage().props
 
     const { data, setData, post, errors } = useForm({

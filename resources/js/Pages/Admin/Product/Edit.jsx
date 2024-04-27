@@ -40,7 +40,6 @@ function DeleteConfirm({ id, type, href }) {
 }
 
 function VariantData(dataGet) {
-    console.log(dataGet)
     return dataGet.map((item, index) => (
         <Table.Row key={item.id} className="bg-white border-none dark:bg-gray-800">
             <Table.Cell>{++index}</Table.Cell>

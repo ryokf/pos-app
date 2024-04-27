@@ -13,9 +13,11 @@ import DateFormat from "../../../Helper/DateFormat";
 import { RiDeleteBack2Fill } from "react-icons/ri";
 import Edit from "./Edit";
 
+import productData from './data/product_data.json'
+import categoryData from './data/category_data.json'
+
 const ProductData = (dataGet, categories) => {
     const searchParams = new URLSearchParams(window.location.search);
-    console.log(dataGet)
     return dataGet.map((item, index) => (
         <Table.Row key={item.id} className="bg-white border-none dark:bg-gray-800">
             <Table.Cell>{++index + (!searchParams.has('page') ? 0 : 10 * (searchParams.get('page') - 1))}</Table.Cell>
@@ -41,7 +43,13 @@ const ProductData = (dataGet, categories) => {
     ))
 }
 
-export default function Product({ products, categories }) {
+export default function Product() {
+    const products = productData
+    const categories = categoryData
+
+    console.log(products)
+    console.log(categories)
+
     const { flash } = usePage().props
     let [addVariantCount, setAddVariantCount] = useState(1);
 
